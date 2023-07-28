@@ -2,14 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-
+    
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Taxi</title>
 </head>
 <body>
-    <div id="map-test" class="map"></div>
-    <script src="https://api-maps.yandex.ru/2.1/?&lang=ru_RU"></script>
+    <div id="map-test" class="map">
+        <div id="placemark" class="placemark_center"></div>
+        <div id="menu-text-center" class="menu-text">
+            <div id="decor-rect" class="decor-rect-class"></div>
+            <div id="adress-block" class="adress-block-class">
+                <div id="adress-from" class="adress-from-class">
+                    <img src="img/Ellipse 1.svg" class="elipse-input">
+                    <input type="text" placeholder="Откуда поедем?" class="adress-from-input">
+                </div>                
+                <div class="splitter"></div>
+                <div id="adress-to" class="adress-to-class">
+                    <img src="img/Ellipse 1.svg" class="elipse-input">
+                    <input type="text" placeholder="Куда поедем?" class="adress-to-input">
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=046399f4-e4ed-431e-aefb-d9b47878e041&lang=ru_RU"></script>
+    <script src="htt>ps://telegram.org/js/telegram-web-app.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
